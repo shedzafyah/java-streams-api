@@ -35,6 +35,13 @@ public class Main {
                      .filter(x-> x.startsWith("L"))
                      .sorted()
                      .forEach(System.out::println);
+
+             5. average of squares of int array
+                    Arrays.stream(new int[]{1,2,3,4,5,6,7,8,9,10})
+                        .map(x->x*x)
+                        .average()
+                        .ifPresent(System.out::println);
+
          */
 
 
