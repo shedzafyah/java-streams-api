@@ -1,5 +1,6 @@
 package zw.co.afrosoft;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -26,6 +27,14 @@ public class Main {
                 .sorted()
                 .findFirst()
                 .ifPresent(System.out::println);
+
+            4. Stream from Array, Filter, Sort & print
+
+                 String[] name = {"Keith","Tyfa","Shelton","Rodney","Mernad","Lionnel"};
+                 Arrays.stream(name)
+                     .filter(x-> x.startsWith("L"))
+                     .sorted()
+                     .forEach(System.out::println);
          */
 
 
