@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Filter2 {
+public class FilterDemo2 {
     public static void main(String[] args) {
         List<String> nameList = Arrays.asList("Shelton","Ashton","Hilton","Elton","Darlington","Takunda");
         //List<String> filteredList = new ArrayList<>();

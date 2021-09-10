@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class Filter3 {
+public class FilterDemo3 {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("Boy",null,"girl",null,"father","mother");
         List<String> notNullWords = new ArrayList<>();
