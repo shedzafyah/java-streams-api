@@ -1,4 +1,4 @@
-package zw.co.afrosoft;
+package zw.co.afrosoft.filter;
 
 import java.util.Arrays;
 import java.util.List;
