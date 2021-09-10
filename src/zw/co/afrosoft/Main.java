@@ -1,6 +1,9 @@
 package zw.co.afrosoft;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -44,6 +47,12 @@ public class Main {
 
          */
 
+        List<Integer> numbers = Arrays.asList(10,15,20,25,30,35);
+        List<Integer>evenNumberList = new ArrayList<>();
+
+       // evenNumberList=numbers.stream().filter(n->n%2==0).sorted().collect(Collectors.toList());
+
+       numbers.stream().filter(n->n%2==0).sorted().forEach(System.out::println);
 
 
     }
