@@ -8,15 +8,15 @@ public class MapDemo1 {
         List<Employee> employeeList = Arrays.asList(
                 new Employee("shelton",23,100),
                 new Employee("owen",23,100),
-                new Employee("kuda",14,500),
-                new Employee("panashe",35,700),
-                new Employee("nyasha",10,200),
+                new Employee("owen",14,500),
+                new Employee("owen",35,700),
+                new Employee("nyasha",20,200),
                 new Employee("romeo",20,400),
                 new Employee("ashton",15,600)
 
         );
 
-        employeeList.stream().filter(employee -> employee.getAge()<20).map(employee -> employee.getName()).sorted().forEach(System.out::println);
+        employeeList.stream().filter(employee -> employee.getAge()>10).map(employee -> employee.getName()).sorted().distinct().forEach(System.out::println);
     }
 }
 
